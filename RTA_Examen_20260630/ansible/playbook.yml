@@ -1,0 +1,8 @@
+---
+- hosts: localhost
+  become: true
+  roles:
+    - 2PRecuperatorio
+    - Crea_Carpetas_savall
+    - Cambia_Propiedad_savall
+    - Sudoers_savall

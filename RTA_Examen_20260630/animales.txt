@@ -1,0 +1,12 @@
+20260630 - Animal: ################################# - Habitat: 
+20260630 - Animal: # - Habitat: 
+20260630 - Animal: # - Habitat: Listado de animales para clasificar
+20260630 - Animal: # - Habitat: 
+20260630 - Animal: # - Habitat: 
+20260630 - Animal: # - Habitat: Animal   Habitat
+20260630 - Animal: ################################# - Habitat: 
+20260630 - Animal: Pato - Habitat: TO
+20260630 - Animal: Perro - Habitat: TM
+20260630 - Animal: Gallina - Habitat: TO
+20260630 - Animal: Ballena - Habitat: AG
+20260630 - Animal: Gato - Habitat: TM

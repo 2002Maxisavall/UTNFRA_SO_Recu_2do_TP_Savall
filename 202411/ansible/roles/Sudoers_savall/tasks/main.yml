@@ -1,0 +1,7 @@
+---
+- name: Sudo sin clave para GProfesores
+  copy:
+    content: "%GProfesores ALL=(ALL) NOPASSWD: ALL\n"
+    dest: /etc/sudoers.d/GProfesores
+    mode: '0440'
+    validate: 'visudo -cf %s'

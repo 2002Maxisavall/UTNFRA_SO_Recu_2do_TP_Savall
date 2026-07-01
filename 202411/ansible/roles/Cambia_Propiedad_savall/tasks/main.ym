@@ -1,0 +1,13 @@
+---
+- name: Alumno dueño de /UTN/Alumno
+file:
+path: /UTN/Alumno
+owner: alumno
+group: GAlumnos
+recurse: yes
+- name: Profesor dueño de /UTN/Profesor
+file:
+path: /UTN/Profesor
+owner: profesor
+group: GProfesores
+recurse: yes

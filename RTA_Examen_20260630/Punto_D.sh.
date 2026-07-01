@@ -1,0 +1,11 @@
+cd ~/UTN-FRA_SO_Examenes/202411/ansible/
+cat playbook.yml
+find roles -type f
+ansible-galaxy init roles/Crea_Carpetas_savall
+ansible-galaxy init roles/Cambia_Propiedad_savall
+ansible-galaxy init roles/Sudoers_savall
+nano roles/2PRecuperatorio/tasks/main.yml
+nano roles/Crea_Carpetas_savall/tasks/main.yml
+nano roles/Sudoers_savall/tasks/main.yml
+nano playbook.yml
+sudo ansible-playbook -i inventory/ playbook.yml --connection=local

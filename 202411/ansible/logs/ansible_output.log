@@ -1,0 +1,34 @@
+2026-07-01 15:52:59,152 p=33333 u=msavall n=ansible | ERROR! - the directory ./roles/2PRecuperatorio already exists. You can use --force to re-initialize this directory,
+however it will reset any main.yml files that may have
+been modified there already.
+2026-07-01 15:59:23,379 p=33340 u=msavall n=ansible | - Role roles/Crea_Carpetas_savall was created successfully
+2026-07-01 15:59:32,505 p=33341 u=msavall n=ansible | - Role roles/Cambia_Propiedad_savall was created successfully
+2026-07-01 15:59:39,529 p=33342 u=msavall n=ansible | - Role roles/Sudoers_savall was created successfully
+2026-07-01 16:07:17,753 p=33353 u=root n=ansible | [WARNING]: A duplicate localhost-like entry was found (localhost). First found
+localhost was 127.0.0.1
+
+2026-07-01 16:07:17,966 p=33353 u=root n=ansible | PLAY [localhost] ***********************************************************************
+2026-07-01 16:07:17,984 p=33353 u=root n=ansible | TASK [Gathering Facts] *****************************************************************
+2026-07-01 16:07:20,027 p=33353 u=root n=ansible | ok: [localhost]
+2026-07-01 16:07:20,038 p=33353 u=root n=ansible | TASK [2PRecuperatorio : Crear grupo GProfesores] ***************************************
+2026-07-01 16:07:20,285 p=33353 u=root n=ansible | changed: [localhost]
+2026-07-01 16:07:20,291 p=33353 u=root n=ansible | TASK [2PRecuperatorio : Crear grupo GAlumnos] ******************************************
+2026-07-01 16:07:20,462 p=33353 u=root n=ansible | changed: [localhost]
+2026-07-01 16:07:20,468 p=33353 u=root n=ansible | TASK [2PRecuperatorio : Crear usuario profesor] ****************************************
+2026-07-01 16:07:20,755 p=33353 u=root n=ansible | changed: [localhost]
+2026-07-01 16:07:20,761 p=33353 u=root n=ansible | TASK [2PRecuperatorio : Crear usuario alumno] ******************************************
+2026-07-01 16:07:20,952 p=33353 u=root n=ansible | changed: [localhost]
+2026-07-01 16:07:20,958 p=33353 u=root n=ansible | TASK [Crea_Carpetas_savall : Crear /UTN] ***********************************************
+2026-07-01 16:07:21,173 p=33353 u=root n=ansible | changed: [localhost]
+2026-07-01 16:07:21,179 p=33353 u=root n=ansible | TASK [Crea_Carpetas_savall : Crear /UTN/Alumno] ****************************************
+2026-07-01 16:07:21,329 p=33353 u=root n=ansible | changed: [localhost]
+2026-07-01 16:07:21,334 p=33353 u=root n=ansible | TASK [Crea_Carpetas_savall : Crear /UTN/Profesor] **************************************
+2026-07-01 16:07:21,480 p=33353 u=root n=ansible | changed: [localhost]
+2026-07-01 16:07:21,486 p=33353 u=root n=ansible | TASK [Cambia_Propiedad_savall : Alumno dueño de /UTN/Alumno] ***************************
+2026-07-01 16:07:21,635 p=33353 u=root n=ansible | changed: [localhost]
+2026-07-01 16:07:21,643 p=33353 u=root n=ansible | TASK [Cambia_Propiedad_savall : Profesor dueño de /UTN/Profesor] ***********************
+2026-07-01 16:07:21,794 p=33353 u=root n=ansible | changed: [localhost]
+2026-07-01 16:07:21,802 p=33353 u=root n=ansible | TASK [Sudoers_savall : Sudo sin clave para GProfesores] ********************************
+2026-07-01 16:07:22,229 p=33353 u=root n=ansible | changed: [localhost]
+2026-07-01 16:07:22,241 p=33353 u=root n=ansible | PLAY RECAP *****************************************************************************
+2026-07-01 16:07:22,241 p=33353 u=root n=ansible | localhost                  : ok=11   changed=10   unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
